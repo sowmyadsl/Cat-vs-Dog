@@ -1,6 +1,6 @@
 $(document).ready(function() {
   $("button#meow").click(function() {
-    $("ul#cat-says").prepend("<li>meow!</li>");
+    $("ul#cat-says").after("<li>meow!</li>");
     $("ul#dog-says").prepend("<li>you are so annoying</li>")
   });
 
