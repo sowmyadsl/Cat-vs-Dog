@@ -8,5 +8,10 @@ $(document).ready(function() {
     $("ul#dog-says").prepend("<li>bark</li>");
     $("ul#cat-says").prepend("<li>you too!</li>");
   });
-
+  $("button#cat-img").click(function(){
+    $("#img1").show();
+  });
+    $("button#dog-img").click(function(){
+      $("#img2").show();
+  });
 });
